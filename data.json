@@ -1,0 +1,182 @@
+[
+  {
+    "date": "01/05/2020 17:24:02",
+    "temperature": "16.644 \u00b0C",
+    "fill_percentage": "100.0 %"
+  },
+  {
+    "date": "01/05/2020 17:24:03",
+    "temperature": "17.134 \u00b0C",
+    "fill_percentage": "100.0 %"
+  },
+  {
+    "date": "01/05/2020 17:24:04",
+    "temperature": "15.573 \u00b0C",
+    "fill_percentage": "77.56949194587288 %"
+  },
+  {
+    "date": "01/05/2020 17:24:05",
+    "temperature": "19.640 \u00b0C",
+    "fill_percentage": "96.26691979123278 %"
+  },
+  {
+    "date": "01/05/2020 17:24:06",
+    "temperature": "19.500 \u00b0C",
+    "fill_percentage": "79.30163873424638 %"
+  },
+  {
+    "date": "01/05/2020 17:24:07",
+    "temperature": "15.167 \u00b0C",
+    "fill_percentage": "100.0 %"
+  },
+  {
+    "date": "01/05/2020 17:24:08",
+    "temperature": "19.865 \u00b0C",
+    "fill_percentage": "100.0 %"
+  },
+  {
+    "date": "01/05/2020 17:24:09",
+    "temperature": "17.117 \u00b0C",
+    "fill_percentage": "86.64831929386708 %"
+  },
+  {
+    "date": "01/05/2020 17:24:10",
+    "temperature": "15.262 \u00b0C",
+    "fill_percentage": "100.0 %"
+  },
+  {
+    "date": "01/05/2020 17:24:11",
+    "temperature": "19.415 \u00b0C",
+    "fill_percentage": "100.0 %"
+  },
+  {
+    "date": "01/05/2020 17:24:12",
+    "temperature": "15.353 \u00b0C",
+    "fill_percentage": "94.38602749911817 %"
+  },
+  {
+    "date": "01/05/2020 17:24:13",
+    "temperature": "18.448 \u00b0C",
+    "fill_percentage": "100.0 %"
+  },
+  {
+    "date": "01/05/2020 17:24:14",
+    "temperature": "15.635 \u00b0C",
+    "fill_percentage": "100.0 %"
+  },
+  {
+    "date": "01/05/2020 17:24:15",
+    "temperature": "18.618 \u00b0C",
+    "fill_percentage": "90.90134466775362 %"
+  },
+  {
+    "date": "01/05/2020 17:24:16",
+    "temperature": "18.108 \u00b0C",
+    "fill_percentage": "67.79399073172192 %"
+  },
+  {
+    "date": "01/05/2020 17:24:17",
+    "temperature": "16.981 \u00b0C",
+    "fill_percentage": "100.0 %"
+  },
+  {
+    "date": "01/05/2020 17:33:11",
+    "temperature": "16.872 \u00b0C",
+    "fill_percentage": "93.59735431984853 %"
+  },
+  {
+    "date": "01/05/2020 17:33:12",
+    "temperature": "15.721 \u00b0C",
+    "fill_percentage": "75.86564707332394 %"
+  },
+  {
+    "date": "01/05/2020 17:33:13",
+    "temperature": "17.149 \u00b0C",
+    "fill_percentage": "100.0 %"
+  },
+  {
+    "date": "01/05/2020 17:33:14",
+    "temperature": "15.503 \u00b0C",
+    "fill_percentage": "100.0 %"
+  },
+  {
+    "date": "01/05/2020 17:33:15",
+    "temperature": "15.834 \u00b0C",
+    "fill_percentage": "100.0 %"
+  },
+  {
+    "date": "01/05/2020 17:33:16",
+    "temperature": "18.737 \u00b0C",
+    "fill_percentage": "75.51396715372138 %"
+  },
+  {
+    "date": "01/05/2020 17:33:17",
+    "temperature": "17.888 \u00b0C",
+    "fill_percentage": "80.2541803089668 %"
+  },
+  {
+    "date": "01/05/2020 17:33:18",
+    "temperature": "17.087 \u00b0C",
+    "fill_percentage": "74.84837070396168 %"
+  },
+  {
+    "date": "01/05/2020 17:33:19",
+    "temperature": "15.161 \u00b0C",
+    "fill_percentage": "100.0 %"
+  },
+  {
+    "date": "01/05/2020 17:33:20",
+    "temperature": "16.481 \u00b0C",
+    "fill_percentage": "93.87383106048114 %"
+  },
+  {
+    "date": "01/05/2020 17:33:21",
+    "temperature": "15.874 \u00b0C",
+    "fill_percentage": "95.20542380825471 %"
+  },
+  {
+    "date": "01/05/2020 17:33:22",
+    "temperature": "16.579 \u00b0C",
+    "fill_percentage": "73.14668235823707 %"
+  },
+  {
+    "date": "01/05/2020 17:33:23",
+    "temperature": "19.270 \u00b0C",
+    "fill_percentage": "100.0 %"
+  },
+  {
+    "date": "01/05/2020 17:33:24",
+    "temperature": "18.671 \u00b0C",
+    "fill_percentage": "87.46377863774583 %"
+  },
+  {
+    "date": "01/05/2020 17:33:25",
+    "temperature": "18.875 \u00b0C",
+    "fill_percentage": "67.94471181477658 %"
+  },
+  {
+    "date": "01/05/2020 17:33:26",
+    "temperature": "19.498 \u00b0C",
+    "fill_percentage": "76.45818388392448 %"
+  },
+  {
+    "date": "01/05/2020 17:33:27",
+    "temperature": "19.213 \u00b0C",
+    "fill_percentage": "100.0 %"
+  },
+  {
+    "date": "01/05/2020 17:33:28",
+    "temperature": "15.013 \u00b0C",
+    "fill_percentage": "100.0 %"
+  },
+  {
+    "date": "01/05/2020 17:33:29",
+    "temperature": "17.333 \u00b0C",
+    "fill_percentage": "100.0 %"
+  },
+  {
+    "date": "01/05/2020 17:33:30",
+    "temperature": "17.994 \u00b0C",
+    "fill_percentage": "98.37815741072994 %"
+  }
+]
