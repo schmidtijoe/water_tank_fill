@@ -26,3 +26,4 @@ Steps:
 - disable wifi powermanagement (idle mode)
 
 Enjoy chart on pis ip in browser :)
+❮img src="images/example_webview.png" width="200" ❯
