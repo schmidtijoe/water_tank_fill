@@ -55,6 +55,12 @@ def measure_temperature():
 
 
 def write_to_json(temperature, volume):
+    """
+    Writes the measured temperature and volume to json file with acquisition date
+    :param temperature: temperature value
+    :param volume: volume value
+    :return: make sure the directories are linked correctly and jsons are initiated with empty lists
+    """
     with open('/var/www/html/data.json', 'r+') as json_file:
         data = json.load(json_file)
         if len(data) >= 60:
@@ -62,7 +68,7 @@ def write_to_json(temperature, volume):
             for k in range(30):
                 average += data[k]
             average /= 30
-            with open('long.json', 'r+') as archive_file:
+            with open('/var/www/html/long.json', 'r+') as archive_file:
                 archive = json.load(archive_file)
                 archive.append({'date': datetime.datetime.now().strftime("%d/%m/%Y"),
                                 'last 30': average})
@@ -84,8 +90,8 @@ def calculate_fill(radius, Length, distance):
     returns fill volume in litres
     """
     height = np.clip(h_b - distance, 0.0, 120.0);
-    a = acos((radius - height) / radius);
-    fill = Length * radius**2 * a - (radius - height) * np.sqrt(2 * radius * height - height**2) / 1000.0
+    a = np.arccos((radius - height) / radius);
+    fill = Length * (radius**2 * a - (radius - height) * np.sqrt(2 * radius * height - height**2)) / 1000.0
     return np.clip(fill, 0.0, 3000.0)
 
 
@@ -104,9 +110,8 @@ h_b=177             # height where module is placed [cm]
 # pin numbers
 trig = 12
 echo = 11
-temp = 20  # degrees, can get this through temp sensor
 
-calib = 2.3  # cm. calibration. Add this to refine measruement offset
+calib = 2.3  # cm. calibration. Add this to refine measurement offset
 
 # setup pins
 GPIO.setmode(GPIO.BOARD)
