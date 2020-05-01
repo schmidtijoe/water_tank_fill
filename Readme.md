@@ -1,7 +1,7 @@
 # Water tank fill volume measurement
 
 Small Project to measure and display the fill volume of a rain water tank.
-
+Uses chart.js wo plot the measured data to webserver interface.
 
 * Uses a raspberry pi zero with apache webserver
 Files under the /var/www/html:
@@ -26,4 +26,4 @@ Steps:
 - disable wifi powermanagement (idle mode)
 
 Enjoy chart on pis ip in browser :)
-❮img src="images/example_webview.png" width="200" ❯
+![Example browser view](images/example_webview.png)
