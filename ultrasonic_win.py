@@ -82,23 +82,24 @@ def calculate_fill(radius, length, f_dist):
     """
     returns fill volume in litres
     """
-    height = np.clip(h_b - f_dist, 0.0, 120.0)
+    np.clip(f_dist, 95.0, 212.0, out=f_dist)
+    height = h_b - f_dist
     a = np.arccos((radius - height) / radius)
     v_fill = length * (radius ** 2 * a - (radius - height) * np.sqrt(2 * radius * height - height ** 2)) / 1000.0
-    return np.clip(v_fill, 0.0, 3000.0)
+    return np.clip(v_fill, 0.0, 3200.0)
 
 
 # ----- main script -----
 
 # ----- variables -----
-L = 223.0           # dimensions of tank [cm]
+L = 226.0           # dimensions of tank [cm]
 r = 72.0            # radius of inner cylinder [cm]
 
 litres = 0
 percis = 0
-max_volume = 3000.0     # [l]
+max_volume = 3200.0     # [l]
 
-h_b = 177             # height where module is placed [cm]
+h_b = 212             # height where module is placed [cm]
 
 # pin numbers
 trig = 12
@@ -111,17 +112,29 @@ calib = 2.3  # cm. calibration. Add this to refine measurement offset
 time.sleep(0.1)
 
 # wrap in block to catch interrupts with cleanup
-for k_index in range(20):
-    print("Starting Measurement")
-    temper = 15 + 5 * np.random.random(1)[0]
-    print("measured temperature= {:.3f}".format(temper))
-    distance = 50 + 50 * np.random.random(1)[0]
-    print("measured dist: {:.3f} cm".format(distance))
-    fill = calculate_fill(r, L, distance)
-    print("fill volume= {:.3f} l".format(fill))
-    fill_percentage = fill/max_volume * 100
-    print("fill percentage= {:.1f} %".format(fill_percentage))
-    write_to_json(temper, fill)
-    time.sleep(1)
+temper = 10
+distance = np.linspace(220, 0, 221)
+fill = calculate_fill(r, L, distance)
+
+import matplotlib.pyplot as plt
+fig = plt.figure(figsize=(10,7), dpi=200)
+ax = fig.add_subplot(111)
+ax.plot(distance, fill)
+ax.set_xlabel('gemessene Distanz [cm]')
+ax.set_ylabel('ermitteltes Volumen [l]')
+plt.grid(b=True, axis='both', which='both')
+plt.savefig('modellierung_distanz.png', dpi=200, bbox_inches='tight')
+#
+# for k_index in range(220):
+#     print("Starting Measurement")
+#     temper = 10
+#     print("measured temperature= {:.3f}".format(temper))
+#     distance = k_index
+#     print("measured dist: {:.3f} cm".format(distance))
+#     fill = calculate_fill(r, L, distance)
+#     print("fill volume= {:.3f} l".format(fill))
+#     fill_percentage = fill/max_volume * 100
+#     print("fill percentage= {:.1f} %".format(fill_percentage))
+#
 
 

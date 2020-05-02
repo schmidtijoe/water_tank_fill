@@ -98,14 +98,14 @@ def calculate_fill(radius, Length, distance):
 # ----- main script -----
 
 # ----- variables -----
-L = 223.0           # dimesnions of tank [cm]
-r = 72.0            # radius of inner zylinder [cm]
+L = 226.0           # dimensions of tank [cm]
+r = 72.0            # radius of inner cylinder [cm]
 
 litres = 0
 percis = 0
-max_volume = 3000.0     # [l]
+max_volume = 3200.0     # [l]
 
-h_b=177             # height where module is placed [cm]
+h_b = 212             # height where module is placed [cm]
 
 # pin numbers
 trig = 12
@@ -125,22 +125,18 @@ GPIO.setup(echo, GPIO.IN)
 time.sleep(0.1)
 
 # wrap in block to catch interrupts with cleanup
-try:
-    while True:
-        print("Starting Measurement")
-        temper = measure_temperature()
-        print("measured temperature= {:.3f}".format(temper))
-        distance = measure(temperature=temper)
-        print("measured dist: {:.3f} cm".format(distance))
-        distance = measure_avg(calibration=calib, n_avg=5, temperature=temper)
-        print("measured distance average= {:.3f} cm".format(distance))
-        fill = calculate_fill(r, L, distance)
-        print("fill volume= {:.3f} l".format(fill))
-        fill_percentage = fill/max_volume * 100
-        print("fill percentage= {:.1f} %".format(fill_percentage))
-        write_to_json(temper, fill)
-        time.sleep(1)
-except KeyboardInterrupt:
-    # pressed CTRL - C
-    GPIO.cleanup()
+print("Starting Measurement")
+temper = measure_temperature()
+print("measured temperature= {:.3f}".format(temper))
+distance = measure(temperature=temper)
+print("measured dist: {:.3f} cm".format(distance))
+distance = measure_avg(calibration=calib, n_avg=5, temperature=temper)
+print("measured distance average= {:.3f} cm".format(distance))
+fill = calculate_fill(r, L, distance)
+print("fill volume= {:.3f} l".format(fill))
+fill_percentage = fill/max_volume * 100
+print("fill percentage= {:.1f} %".format(fill_percentage))
+write_to_json(temper, fill)
+
+GPIO.cleanup()
 
