@@ -82,8 +82,7 @@ def calculate_fill(radius, length, f_dist):
     """
     returns fill volume in litres
     """
-    np.clip(f_dist, 95.0, 212.0, out=f_dist)
-    height = h_b - f_dist
+    height = h_b - np.clip(f_dist, 95.0, 212.0)
     a = np.arccos((radius - height) / radius)
     v_fill = length * (radius ** 2 * a - (radius - height) * np.sqrt(2 * radius * height - height ** 2)) / 1000.0
     return np.clip(v_fill, 0.0, 3200.0)
@@ -113,7 +112,7 @@ time.sleep(0.1)
 
 # wrap in block to catch interrupts with cleanup
 temper = 10
-distance = np.linspace(220, 0, 221)
+distance = np.linspace(0, 220, 221)
 fill = calculate_fill(r, L, distance)
 
 import matplotlib.pyplot as plt
@@ -124,7 +123,7 @@ ax.set_xlabel('gemessene Distanz [cm]')
 ax.set_ylabel('ermitteltes Volumen [l]')
 plt.grid(b=True, axis='both', which='both')
 plt.savefig('modellierung_distanz.png', dpi=200, bbox_inches='tight')
-#
+# plt.show()
 # for k_index in range(220):
 #     print("Starting Measurement")
 #     temper = 10

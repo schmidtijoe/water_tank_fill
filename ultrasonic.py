@@ -85,14 +85,14 @@ def write_to_json(temperature, volume):
     return
 
 
-def calculate_fill(radius, Length, distance):
+def calculate_fill(radius, length, f_dist):
     """
     returns fill volume in litres
     """
-    height = np.clip(h_b - distance, 0.0, 120.0);
-    a = np.arccos((radius - height) / radius);
-    fill = Length * (radius**2 * a - (radius - height) * np.sqrt(2 * radius * height - height**2)) / 1000.0
-    return np.clip(fill, 0.0, 3000.0)
+    height = h_b - np.clip(f_dist, 95.0, 212.0)
+    a = np.arccos((radius - height) / radius)
+    v_fill = length * (radius ** 2 * a - (radius - height) * np.sqrt(2 * radius * height - height ** 2)) / 1000.0
+    return np.clip(v_fill, 0.0, 3200.0)
 
 
 # ----- main script -----

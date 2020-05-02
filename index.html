@@ -17,6 +17,7 @@
 
     <p style="color: #d6c67c;">
       Letzter Eintrag: <span id="entry"></span><br />
+      Aktueller Füllstand: <span id="now_status"></span><br />
     </p>
 
     <div class="aspect-ratio">
@@ -47,6 +48,7 @@
           fill_percentage.push(parseFloat(data[i].fill_percentage).toFixed(2));
         }
         document.getElementById("entry").textContent = dates[dates.length -1];
+        document.getElementById("now_status").textContent = (fill_percentage[fill_percentage.length -1] * 32).toFixed(2);
         return {dates, temperatures, fill_percentage};
         }
 
