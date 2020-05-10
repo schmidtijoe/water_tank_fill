@@ -1,182 +1,1439 @@
 [
   {
-    "date": "01/05/2020 17:24:02",
-    "temperature": "16.644 \u00b0C",
-    "fill_percentage": "100.0 %"
+    "date": "02/05 17:54",
+    "temperature": "9.062 \u00b0C",
+    "fill_percentage": "93.31830834083355 %"
   },
   {
-    "date": "01/05/2020 17:24:03",
-    "temperature": "17.134 \u00b0C",
-    "fill_percentage": "100.0 %"
+    "date": "02/05 17:55",
+    "temperature": "9.062 \u00b0C",
+    "fill_percentage": "93.34426243761139 %"
   },
   {
-    "date": "01/05/2020 17:24:04",
-    "temperature": "15.573 \u00b0C",
-    "fill_percentage": "77.56949194587288 %"
+    "date": "02/05 18:15",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "97.52919237309449 %"
   },
   {
-    "date": "01/05/2020 17:24:05",
-    "temperature": "19.640 \u00b0C",
-    "fill_percentage": "96.26691979123278 %"
+    "date": "02/05 18:30",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "97.89119025702219 %",
+    "distance": "97.71937008857726 cm"
   },
   {
-    "date": "01/05/2020 17:24:06",
-    "temperature": "19.500 \u00b0C",
-    "fill_percentage": "79.30163873424638 %"
+    "date": "02/05 18:45",
+    "temperature": "9.125 \u00b0C",
+    "fill_percentage": "97.91965550605757 %",
+    "distance": "97.68478300333024 cm"
   },
   {
-    "date": "01/05/2020 17:24:07",
-    "temperature": "15.167 \u00b0C",
-    "fill_percentage": "100.0 %"
+    "date": "02/05 19:00",
+    "temperature": "9.125 \u00b0C",
+    "fill_percentage": "97.91899443617595 %",
+    "distance": "97.68558641433717 cm"
   },
   {
-    "date": "01/05/2020 17:24:08",
-    "temperature": "19.865 \u00b0C",
-    "fill_percentage": "100.0 %"
+    "date": "02/05 19:15",
+    "temperature": "9.125 \u00b0C",
+    "fill_percentage": "97.5258202624816 %",
+    "distance": "98.16200914144517 cm"
   },
   {
-    "date": "01/05/2020 17:24:09",
-    "temperature": "17.117 \u00b0C",
-    "fill_percentage": "86.64831929386708 %"
+    "date": "02/05 19:30",
+    "temperature": "9.062 \u00b0C",
+    "fill_percentage": "97.45240513410921 %",
+    "distance": "98.25066125774386 cm"
   },
   {
-    "date": "01/05/2020 17:24:10",
-    "temperature": "15.262 \u00b0C",
-    "fill_percentage": "100.0 %"
+    "date": "02/05 19:45",
+    "temperature": "9.125 \u00b0C",
+    "fill_percentage": "97.51717514376426 %",
+    "distance": "98.17245348453523 cm"
   },
   {
-    "date": "01/05/2020 17:24:11",
-    "temperature": "19.415 \u00b0C",
-    "fill_percentage": "100.0 %"
+    "date": "02/05 20:00",
+    "temperature": "9.125 \u00b0C",
+    "fill_percentage": "97.75617051956952 %",
+    "distance": "97.88322552204133 cm"
   },
   {
-    "date": "01/05/2020 17:24:12",
-    "temperature": "15.353 \u00b0C",
-    "fill_percentage": "94.38602749911817 %"
+    "date": "02/05 20:15",
+    "temperature": "9.062 \u00b0C",
+    "fill_percentage": "97.92268034904622 %",
+    "distance": "97.68110675048828 cm"
   },
   {
-    "date": "01/05/2020 17:24:13",
-    "temperature": "18.448 \u00b0C",
-    "fill_percentage": "100.0 %"
+    "date": "02/05 20:30",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "97.63812959178803 %",
+    "distance": "98.02620478630067 cm"
   },
   {
-    "date": "01/05/2020 17:24:14",
-    "temperature": "15.635 \u00b0C",
-    "fill_percentage": "100.0 %"
+    "date": "02/05 20:45",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "97.85216770182551 %",
+    "distance": "97.76676078796386 cm"
   },
   {
-    "date": "01/05/2020 17:24:15",
-    "temperature": "18.618 \u00b0C",
-    "fill_percentage": "90.90134466775362 %"
+    "date": "02/05 21:00",
+    "temperature": "9.062 \u00b0C",
+    "fill_percentage": "97.87970383115889 %",
+    "distance": "97.73332260799408 cm"
   },
   {
-    "date": "01/05/2020 17:24:16",
-    "temperature": "18.108 \u00b0C",
-    "fill_percentage": "67.79399073172192 %"
+    "date": "02/05 21:15",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "97.85349087674517 %",
+    "distance": "97.76515432357789 cm"
   },
   {
-    "date": "01/05/2020 17:24:17",
-    "temperature": "16.981 \u00b0C",
-    "fill_percentage": "100.0 %"
+    "date": "02/05 21:30",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "97.64476642484647 %",
+    "distance": "98.01817246437072 cm"
   },
   {
-    "date": "01/05/2020 17:33:11",
-    "temperature": "16.872 \u00b0C",
-    "fill_percentage": "93.59735431984853 %"
+    "date": "02/05 21:45",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "97.74424032641511 %",
+    "distance": "97.89768763542175 cm"
   },
   {
-    "date": "01/05/2020 17:33:12",
-    "temperature": "15.721 \u00b0C",
-    "fill_percentage": "75.86564707332394 %"
+    "date": "02/05 22:00",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "97.91697219509527 %",
+    "distance": "97.68804403305053 cm"
   },
   {
-    "date": "01/05/2020 17:33:13",
-    "temperature": "17.149 \u00b0C",
-    "fill_percentage": "100.0 %"
+    "date": "02/05 22:15",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "97.95133244982969 %",
+    "distance": "97.64627595901489 cm"
   },
   {
-    "date": "01/05/2020 17:33:14",
-    "temperature": "15.503 \u00b0C",
-    "fill_percentage": "100.0 %"
+    "date": "02/05 22:30",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "97.76212995029896 %",
+    "distance": "97.87600036621093 cm"
   },
   {
-    "date": "01/05/2020 17:33:15",
-    "temperature": "15.834 \u00b0C",
-    "fill_percentage": "100.0 %"
+    "date": "02/05 22:45",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "97.5271979863609 %",
+    "distance": "98.16034456253053 cm"
   },
   {
-    "date": "01/05/2020 17:33:16",
-    "temperature": "18.737 \u00b0C",
-    "fill_percentage": "75.51396715372138 %"
+    "date": "02/05 23:00",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "97.60626369447814 %",
+    "distance": "98.06475993156432 cm"
   },
   {
-    "date": "01/05/2020 17:33:17",
-    "temperature": "17.888 \u00b0C",
-    "fill_percentage": "80.2541803089668 %"
+    "date": "02/05 23:15",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.76915719923645 %",
+    "distance": "97.86747976922989 cm"
   },
   {
-    "date": "01/05/2020 17:33:18",
-    "temperature": "17.087 \u00b0C",
-    "fill_percentage": "74.84837070396168 %"
+    "date": "02/05 23:30",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.74597106843912 %",
+    "distance": "97.89558974170684 cm"
   },
   {
-    "date": "01/05/2020 17:33:19",
-    "temperature": "15.161 \u00b0C",
-    "fill_percentage": "100.0 %"
+    "date": "02/05 23:45",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "97.73032286345094 %",
+    "distance": "97.9145555114746 cm"
   },
   {
-    "date": "01/05/2020 17:33:20",
-    "temperature": "16.481 \u00b0C",
-    "fill_percentage": "93.87383106048114 %"
+    "date": "03/05 00:00",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "97.7243573500651 %",
+    "distance": "97.92178460121154 cm"
   },
   {
-    "date": "01/05/2020 17:33:21",
-    "temperature": "15.874 \u00b0C",
-    "fill_percentage": "95.20542380825471 %"
+    "date": "03/05 00:15",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.68896527527588 %",
+    "distance": "97.96465995979307 cm"
   },
   {
-    "date": "01/05/2020 17:33:22",
-    "temperature": "16.579 \u00b0C",
-    "fill_percentage": "73.14668235823707 %"
+    "date": "03/05 00:30",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.7956457716626 %",
+    "distance": "97.83535408639908 cm"
   },
   {
-    "date": "01/05/2020 17:33:23",
-    "temperature": "19.270 \u00b0C",
-    "fill_percentage": "100.0 %"
+    "date": "03/05 00:45",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.68100712331645 %",
+    "distance": "97.97429766464232 cm"
   },
   {
-    "date": "01/05/2020 17:33:24",
-    "temperature": "18.671 \u00b0C",
-    "fill_percentage": "87.46377863774583 %"
+    "date": "03/05 01:00",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.87835462274282 %",
+    "distance": "97.73496132755278 cm"
   },
   {
-    "date": "01/05/2020 17:33:25",
-    "temperature": "18.875 \u00b0C",
-    "fill_percentage": "67.94471181477658 %"
+    "date": "03/05 01:15",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.82741815527703 %",
+    "distance": "97.7968032670021 cm"
   },
   {
-    "date": "01/05/2020 17:33:26",
-    "temperature": "19.498 \u00b0C",
-    "fill_percentage": "76.45818388392448 %"
+    "date": "03/05 01:30",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.76319582024902 %",
+    "distance": "97.87470804786682 cm"
   },
   {
-    "date": "01/05/2020 17:33:27",
-    "temperature": "19.213 \u00b0C",
-    "fill_percentage": "100.0 %"
+    "date": "03/05 01:45",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.46511625275177 %",
+    "distance": "98.23531883764267 cm"
   },
   {
-    "date": "01/05/2020 17:33:28",
-    "temperature": "15.013 \u00b0C",
-    "fill_percentage": "100.0 %"
+    "date": "03/05 02:00",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.7022267651236 %",
+    "distance": "97.94859711837768 cm"
   },
   {
-    "date": "01/05/2020 17:33:29",
-    "temperature": "17.333 \u00b0C",
-    "fill_percentage": "100.0 %"
+    "date": "03/05 02:15",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.70885652679634 %",
+    "distance": "97.94056569766998 cm"
   },
   {
-    "date": "01/05/2020 17:33:30",
-    "temperature": "17.994 \u00b0C",
-    "fill_percentage": "98.37815741072994 %"
+    "date": "03/05 02:30",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.85652949925715 %",
+    "distance": "97.7614650158882 cm"
+  },
+  {
+    "date": "03/05 02:45",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.74530848929282 %",
+    "distance": "97.89639288377761 cm"
+  },
+  {
+    "date": "03/05 03:00",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.70421576246832 %",
+    "distance": "97.94618769216535 cm"
+  },
+  {
+    "date": "03/05 03:15",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.71349696980488 %",
+    "distance": "97.93494370317458 cm"
+  },
+  {
+    "date": "03/05 03:30",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.67702769363981 %",
+    "distance": "97.97911651706696 cm"
+  },
+  {
+    "date": "03/05 03:45",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.65646355236332 %",
+    "distance": "98.00401392126084 cm"
+  },
+  {
+    "date": "03/05 04:00",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "97.67332053695775 %",
+    "distance": "97.98360540628434 cm"
+  },
+  {
+    "date": "03/05 04:15",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.94312619275216 %",
+    "distance": "97.6562534046173 cm"
+  },
+  {
+    "date": "03/05 04:30",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "97.71376484886454 %",
+    "distance": "97.93461915016175 cm"
+  },
+  {
+    "date": "03/05 04:45",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "97.7360316916911 %",
+    "distance": "97.90763687276839 cm"
+  },
+  {
+    "date": "03/05 05:00",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "97.70249593390898 %",
+    "distance": "97.94827105760575 cm"
+  },
+  {
+    "date": "03/05 05:15",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "97.73298391766411 %",
+    "distance": "97.91133060216904 cm"
+  },
+  {
+    "date": "03/05 05:30",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "98.08457027027653 %",
+    "distance": "97.48410620450974 cm"
+  },
+  {
+    "date": "03/05 05:45",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "98.22546747479407 %",
+    "distance": "97.31225278139115 cm"
+  },
+  {
+    "date": "03/05 06:00",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "98.29580102145805 %",
+    "distance": "97.22632606983186 cm"
+  },
+  {
+    "date": "03/05 06:15",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "98.1655906655292 %",
+    "distance": "97.3853306388855 cm"
+  },
+  {
+    "date": "03/05 06:30",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "97.9981693782566 %",
+    "distance": "97.58930619716645 cm"
+  },
+  {
+    "date": "03/05 06:45",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "98.06413457228714 %",
+    "distance": "97.50900085926057 cm"
+  },
+  {
+    "date": "03/05 07:00",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "97.94375379620642 %",
+    "distance": "97.6554903869629 cm"
+  },
+  {
+    "date": "03/05 07:15",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "98.03681226924682 %",
+    "distance": "97.54227256774902 cm"
+  },
+  {
+    "date": "03/05 07:30",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "98.0216415274733 %",
+    "distance": "97.56074072265623 cm"
+  },
+  {
+    "date": "03/05 07:45",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "98.08955265548524 %",
+    "distance": "97.47803550720214 cm"
+  },
+  {
+    "date": "03/05 08:00",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "98.0219245071664 %",
+    "distance": "97.56039627552033 cm"
+  },
+  {
+    "date": "03/05 08:15",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "98.0364372903755 %",
+    "distance": "97.54272910118104 cm"
+  },
+  {
+    "date": "03/05 08:30",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "98.03973520133177 %",
+    "distance": "97.53871383428574 cm"
+  },
+  {
+    "date": "03/05 08:45",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "98.06347524964751 %",
+    "distance": "97.50980391263963 cm"
+  },
+  {
+    "date": "03/05 09:00",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "98.05688165704669 %",
+    "distance": "97.51783444643021 cm"
+  },
+  {
+    "date": "03/05 09:15",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "98.02984096966739 %",
+    "distance": "97.55075963497163 cm"
+  },
+  {
+    "date": "03/05 09:30",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "98.11663692640555 %",
+    "distance": "97.44502704000472 cm"
+  },
+  {
+    "date": "03/05 09:45",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "98.08368553678163 %",
+    "distance": "97.48518414354322 cm"
+  },
+  {
+    "date": "03/05 10:00",
+    "temperature": "9.062 \u00b0C",
+    "fill_percentage": "98.03626771377627 %",
+    "distance": "97.5429355583191 cm"
+  },
+  {
+    "date": "03/05 10:15",
+    "temperature": "9.375 \u00b0C",
+    "fill_percentage": "98.84820291897515 %",
+    "distance": "96.54812898397446 cm"
+  },
+  {
+    "date": "03/05 10:30",
+    "temperature": "9.625 \u00b0C",
+    "fill_percentage": "99.70917016488512 %",
+    "distance": "95.47877570152282 cm"
+  },
+  {
+    "date": "03/05 10:45",
+    "temperature": "9.687 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.86759770917892 cm"
+  },
+  {
+    "date": "03/05 11:00",
+    "temperature": "10.062 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.80744418525695 cm"
+  },
+  {
+    "date": "03/05 11:15",
+    "temperature": "9.875 \u00b0C",
+    "fill_percentage": "98.98030430311702 %",
+    "distance": "96.3850501394272 cm"
+  },
+  {
+    "date": "03/05 11:30",
+    "temperature": "10.000 \u00b0C",
+    "fill_percentage": "99.44050363646252 %",
+    "distance": "95.8141398048401 cm"
+  },
+  {
+    "date": "03/05 11:45",
+    "temperature": "9.812 \u00b0C",
+    "fill_percentage": "99.50739333409508 %",
+    "distance": "95.73078913116456 cm"
+  },
+  {
+    "date": "03/05 12:00",
+    "temperature": "9.625 \u00b0C",
+    "fill_percentage": "99.11875962885338 %",
+    "distance": "96.21374710559844 cm"
+  },
+  {
+    "date": "03/05 12:15",
+    "temperature": "9.500 \u00b0C",
+    "fill_percentage": "99.3923449770129 %",
+    "distance": "95.8740911102295 cm"
+  },
+  {
+    "date": "03/05 12:30",
+    "temperature": "9.437 \u00b0C",
+    "fill_percentage": "99.40869018674056 %",
+    "distance": "95.85374893665312 cm"
+  },
+  {
+    "date": "03/05 12:45",
+    "temperature": "9.375 \u00b0C",
+    "fill_percentage": "99.7011879940095 %",
+    "distance": "95.48876192331315 cm"
+  },
+  {
+    "date": "03/05 13:00",
+    "temperature": "9.312 \u00b0C",
+    "fill_percentage": "99.43025404173905 %",
+    "distance": "95.82690333747863 cm"
+  },
+  {
+    "date": "03/05 13:15",
+    "temperature": "9.312 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.05537196540834 cm"
+  },
+  {
+    "date": "03/05 13:30",
+    "temperature": "9.312 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.01197332572937 cm"
+  },
+  {
+    "date": "03/05 13:45",
+    "temperature": "9.250 \u00b0C",
+    "fill_percentage": "99.63904269465559 %",
+    "distance": "95.5664624786377 cm"
+  },
+  {
+    "date": "03/05 14:00",
+    "temperature": "9.187 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.98370454788207 cm"
+  },
+  {
+    "date": "03/05 14:15",
+    "temperature": "9.187 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.98129404878617 cm"
+  },
+  {
+    "date": "03/05 14:30",
+    "temperature": "9.187 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.99816754245758 cm"
+  },
+  {
+    "date": "03/05 14:45",
+    "temperature": "9.187 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.96683105421066 cm"
+  },
+  {
+    "date": "03/05 15:00",
+    "temperature": "9.187 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.96361705541611 cm"
+  },
+  {
+    "date": "03/05 15:15",
+    "temperature": "9.187 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.94915406084061 cm"
+  },
+  {
+    "date": "03/05 15:30",
+    "temperature": "9.250 \u00b0C",
+    "fill_percentage": "99.71102065480684 %",
+    "distance": "95.47646041870118 cm"
+  },
+  {
+    "date": "03/05 15:45",
+    "temperature": "9.250 \u00b0C",
+    "fill_percentage": "99.71487407882242 %",
+    "distance": "95.47163887977601 cm"
+  },
+  {
+    "date": "03/05 16:00",
+    "temperature": "9.250 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.97582396030427 cm"
+  },
+  {
+    "date": "03/05 16:15",
+    "temperature": "9.187 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.00298854064941 cm"
+  },
+  {
+    "date": "03/05 16:30",
+    "temperature": "9.187 \u00b0C",
+    "fill_percentage": "99.68678073096835 %",
+    "distance": "95.50678285169603 cm"
+  },
+  {
+    "date": "03/05 16:45",
+    "temperature": "9.250 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.99109216690064 cm"
+  },
+  {
+    "date": "03/05 17:00",
+    "temperature": "9.250 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.02082499027253 cm"
+  },
+  {
+    "date": "03/05 17:15",
+    "temperature": "9.250 \u00b0C",
+    "fill_percentage": "99.66025982468199 %",
+    "distance": "95.53994401454926 cm"
+  },
+  {
+    "date": "03/05 17:30",
+    "temperature": "9.250 \u00b0C",
+    "fill_percentage": "99.65768846651818 %",
+    "distance": "95.54315837383271 cm"
+  },
+  {
+    "date": "03/05 17:45",
+    "temperature": "9.250 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.01359268188477 cm"
+  },
+  {
+    "date": "03/05 18:00",
+    "temperature": "9.250 \u00b0C",
+    "fill_percentage": "99.7469758913584 %",
+    "distance": "95.43145938873292 cm"
+  },
+  {
+    "date": "03/05 18:15",
+    "temperature": "9.250 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.10198756217957 cm"
+  },
+  {
+    "date": "03/05 18:30",
+    "temperature": "9.250 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.96698447227479 cm"
+  },
+  {
+    "date": "03/05 18:45",
+    "temperature": "9.187 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.9740625514984 cm"
+  },
+  {
+    "date": "03/05 19:00",
+    "temperature": "9.187 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.98129404878617 cm"
+  },
+  {
+    "date": "03/05 19:15",
+    "temperature": "9.187 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.92987006807326 cm"
+  },
+  {
+    "date": "03/05 19:30",
+    "temperature": "9.187 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.99977454185486 cm"
+  },
+  {
+    "date": "03/05 19:45",
+    "temperature": "9.187 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.99575704336166 cm"
+  },
+  {
+    "date": "03/05 20:00",
+    "temperature": "9.187 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.0005780415535 cm"
+  },
+  {
+    "date": "03/05 20:15",
+    "temperature": "9.125 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.99174930810929 cm"
+  },
+  {
+    "date": "03/05 20:30",
+    "temperature": "9.125 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.9805015540123 cm"
+  },
+  {
+    "date": "03/05 20:45",
+    "temperature": "9.125 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.9539889907837 cm"
+  },
+  {
+    "date": "03/05 21:00",
+    "temperature": "9.125 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.94354464769364 cm"
+  },
+  {
+    "date": "03/05 21:15",
+    "temperature": "9.062 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.90804305648804 cm"
+  },
+  {
+    "date": "03/05 21:30",
+    "temperature": "9.062 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.96266887664794 cm"
+  },
+  {
+    "date": "03/05 21:45",
+    "temperature": "9.062 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.97793197345734 cm"
+  },
+  {
+    "date": "03/05 22:00",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "99.98106512349136 %",
+    "distance": "95.13778182029723 cm"
+  },
+  {
+    "date": "03/05 22:15",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.01970668792725 cm"
+  },
+  {
+    "date": "03/05 22:30",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.97375888824463 cm"
+  },
+  {
+    "date": "03/05 22:45",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "99.67120355112361 %",
+    "distance": "95.5262620663643 cm"
+  },
+  {
+    "date": "03/05 23:00",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "99.85521436843165 %",
+    "distance": "95.29581885862349 cm"
+  },
+  {
+    "date": "03/05 23:15",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "99.86932368792182 %",
+    "distance": "95.27811857223512 cm"
+  },
+  {
+    "date": "03/05 23:30",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "99.79438808046831 %",
+    "distance": "95.372075817585 cm"
+  },
+  {
+    "date": "03/05 23:45",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.01230790376664 cm"
+  },
+  {
+    "date": "04/05 00:00",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.00668653011323 cm"
+  },
+  {
+    "date": "04/05 00:15",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "99.63586765273413 %",
+    "distance": "95.57043000221253 cm"
+  },
+  {
+    "date": "04/05 00:30",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "98.12410503350635 %",
+    "distance": "97.43592300176621 cm"
+  },
+  {
+    "date": "04/05 00:45",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.76379023789195 %",
+    "distance": "95.4104051208496 cm"
+  },
+  {
+    "date": "04/05 01:00",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.03800561189652 cm"
+  },
+  {
+    "date": "04/05 01:15",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "98.8087769844556 %",
+    "distance": "96.59673222064973 cm"
+  },
+  {
+    "date": "04/05 01:30",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.08038722229003 cm"
+  },
+  {
+    "date": "04/05 01:45",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.83811732707287 %",
+    "distance": "95.31726138305663 cm"
+  },
+  {
+    "date": "04/05 02:00",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.54988434798582 %",
+    "distance": "95.67779188537597 cm"
+  },
+  {
+    "date": "04/05 02:15",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.7573782000317 %",
+    "distance": "95.41843475341797 cm"
+  },
+  {
+    "date": "04/05 02:30",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.10608204650879 cm"
+  },
+  {
+    "date": "04/05 02:45",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.0771753692627 cm"
+  },
+  {
+    "date": "04/05 03:00",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.00249978637694 cm"
+  },
+  {
+    "date": "04/05 03:15",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.83427519818228 %",
+    "distance": "95.32207916259765 cm"
+  },
+  {
+    "date": "04/05 03:30",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.06432795715332 cm"
+  },
+  {
+    "date": "04/05 03:45",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.62191709431023 %",
+    "distance": "95.58786000061035 cm"
+  },
+  {
+    "date": "04/05 04:00",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.08199314880372 cm"
+  },
+  {
+    "date": "04/05 04:15",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.04746572875976 cm"
+  },
+  {
+    "date": "04/05 04:30",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.89379901414232 %",
+    "distance": "95.24740357971191 cm"
+  },
+  {
+    "date": "04/05 04:45",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.64762139345737 %",
+    "distance": "95.55574147033693 cm"
+  },
+  {
+    "date": "04/05 05:00",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.74134496405163 %",
+    "distance": "95.43850883483886 cm"
+  },
+  {
+    "date": "04/05 05:15",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.68551436251231 %",
+    "distance": "95.50836663818359 cm"
+  },
+  {
+    "date": "04/05 05:30",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.98242570495606 cm"
+  },
+  {
+    "date": "04/05 05:45",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.72979825684921 %",
+    "distance": "95.4529621734619 cm"
+  },
+  {
+    "date": "04/05 06:00",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.91362640600578 %",
+    "distance": "95.22251171874998 cm"
+  },
+  {
+    "date": "04/05 06:15",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.03461831665038 cm"
+  },
+  {
+    "date": "04/05 06:30",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.86564498805454 %",
+    "distance": "95.2827339630127 cm"
+  },
+  {
+    "date": "04/05 06:45",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.05549536132813 cm"
+  },
+  {
+    "date": "04/05 07:00",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.8803636093187 %",
+    "distance": "95.26426580810548 cm"
+  },
+  {
+    "date": "04/05 07:15",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.95134320201389 %",
+    "distance": "95.17513688659668 cm"
+  },
+  {
+    "date": "04/05 07:30",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.99366719055175 cm"
+  },
+  {
+    "date": "04/05 07:45",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.97439607238769 cm"
+  },
+  {
+    "date": "04/05 08:00",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.70862325910521 %",
+    "distance": "95.47945996093749 cm"
+  },
+  {
+    "date": "04/05 08:15",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.03961171865464 cm"
+  },
+  {
+    "date": "04/05 08:30",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "99.64871957229393 %",
+    "distance": "95.55436893463136 cm"
+  },
+  {
+    "date": "04/05 08:45",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.9994590497017 cm"
+  },
+  {
+    "date": "04/05 09:00",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.99704988956452 cm"
+  },
+  {
+    "date": "04/05 09:15",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "99.6865709451187 %",
+    "distance": "95.50704522323606 cm"
+  },
+  {
+    "date": "04/05 09:30",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.0251599807739 cm"
+  },
+  {
+    "date": "04/05 09:45",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.02435683870314 cm"
+  },
+  {
+    "date": "04/05 10:00",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "99.84817081672037 %",
+    "distance": "95.30465342140198 cm"
+  },
+  {
+    "date": "04/05 10:15",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.017126224041 cm"
+  },
+  {
+    "date": "04/05 10:30",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "97.06710250915708 %",
+    "distance": "98.71438398122788 cm"
+  },
+  {
+    "date": "04/05 10:45",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.91513844490052 cm"
+  },
+  {
+    "date": "04/05 11:00",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "99.56121114299664 %",
+    "distance": "95.66365792703627 cm"
+  },
+  {
+    "date": "04/05 11:15",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.95127091026306 cm"
+  },
+  {
+    "date": "04/05 11:30",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.99464058208464 cm"
+  },
+  {
+    "date": "04/05 11:45",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.99624686622619 cm"
+  },
+  {
+    "date": "04/05 12:00",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "99.90961234866876 %",
+    "distance": "95.22755178260802 cm"
+  },
+  {
+    "date": "04/05 12:15",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.95448347854612 cm"
+  },
+  {
+    "date": "04/05 12:30",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.95866104125976 cm"
+  },
+  {
+    "date": "04/05 12:45",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.10484930038453 cm"
+  },
+  {
+    "date": "04/05 13:00",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "99.76405181631416 %",
+    "distance": "95.41007753372192 cm"
+  },
+  {
+    "date": "04/05 13:15",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.97231598854064 cm"
+  },
+  {
+    "date": "04/05 13:30",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.07593294143676 cm"
+  },
+  {
+    "date": "04/05 13:45",
+    "temperature": "9.062 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.01488473415375 cm"
+  },
+  {
+    "date": "04/05 14:00",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.94902225494384 cm"
+  },
+  {
+    "date": "04/05 14:15",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.9417931652069 cm"
+  },
+  {
+    "date": "04/05 14:30",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "99.6510578506603 %",
+    "distance": "95.55144639968873 cm"
+  },
+  {
+    "date": "04/05 14:45",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.03978749275208 cm"
+  },
+  {
+    "date": "04/05 15:00",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.95062871932984 cm"
+  },
+  {
+    "date": "04/05 15:15",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.94902225494384 cm"
+  },
+  {
+    "date": "04/05 15:30",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.11368485450744 cm"
+  },
+  {
+    "date": "04/05 15:45",
+    "temperature": "9.062 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.95945559310914 cm"
+  },
+  {
+    "date": "04/05 16:00",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.96267720222474 cm"
+  },
+  {
+    "date": "04/05 16:15",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "99.87810332705092 %",
+    "distance": "95.26710220336913 cm"
+  },
+  {
+    "date": "04/05 16:30",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.9064509487152 cm"
+  },
+  {
+    "date": "04/05 16:45",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.90163155555724 cm"
+  },
+  {
+    "date": "04/05 17:00",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.95785780906677 cm"
+  },
+  {
+    "date": "04/05 17:15",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.97392245292663 cm"
+  },
+  {
+    "date": "04/05 17:30",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.89199276924133 cm"
+  },
+  {
+    "date": "04/05 17:45",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "99.7409574912308 %",
+    "distance": "95.43899389266969 cm"
+  },
+  {
+    "date": "04/05 18:00",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.0823587989807 cm"
+  },
+  {
+    "date": "04/05 18:15",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "99.9203339713079 %",
+    "distance": "95.21408887863159 cm"
+  },
+  {
+    "date": "04/05 18:30",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "99.91137858905198 %",
+    "distance": "95.2253341293335 cm"
+  },
+  {
+    "date": "04/05 18:45",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.94179316520692 cm"
+  },
+  {
+    "date": "04/05 19:00",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "99.88209989505482 %",
+    "distance": "95.26208689165114 cm"
+  },
+  {
+    "date": "04/05 19:15",
+    "temperature": "9.000 \u00b0C",
+    "fill_percentage": "99.94910951496448 %",
+    "distance": "95.1779434299469 cm"
+  },
+  {
+    "date": "04/05 19:30",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "99.67757980915145 %",
+    "distance": "95.51828921222686 cm"
+  },
+  {
+    "date": "04/05 19:45",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.02596312284469 cm"
+  },
+  {
+    "date": "04/05 20:00",
+    "temperature": "8.937 \u00b0C",
+    "fill_percentage": "99.70005501710759 %",
+    "distance": "95.49017923974989 cm"
+  },
+  {
+    "date": "04/05 20:15",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.02114149093629 cm"
+  },
+  {
+    "date": "04/05 20:30",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "93.16448207855225 cm"
+  },
+  {
+    "date": "04/05 20:45",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.98741324901582 cm"
+  },
+  {
+    "date": "04/05 21:00",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.00748958349229 cm"
+  },
+  {
+    "date": "04/05 21:15",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.95047279357911 cm"
+  },
+  {
+    "date": "04/05 21:30",
+    "temperature": "8.875 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.99383767604829 cm"
+  },
+  {
+    "date": "04/05 21:45",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.57690710087883 %",
+    "distance": "95.64406742858887 cm"
+  },
+  {
+    "date": "04/05 22:00",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.99527311706542 cm"
+  },
+  {
+    "date": "04/05 22:15",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.92002085648049 %",
+    "distance": "95.21448208618163 cm"
+  },
+  {
+    "date": "04/05 22:30",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "94.99366719055175 cm"
+  },
+  {
+    "date": "04/05 22:45",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.07396351623535 cm"
+  },
+  {
+    "date": "04/05 23:00",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.04907165527342 cm"
+  },
+  {
+    "date": "04/05 23:15",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.01855905151368 cm"
+  },
+  {
+    "date": "04/05 23:30",
+    "temperature": "8.812 \u00b0C",
+    "fill_percentage": "99.64826385450964 %",
+    "distance": "95.55493850708007 cm"
+  },
+  {
+    "date": "04/05 23:45",
+    "temperature": "8.750 \u00b0C",
+    "fill_percentage": "99.99288125589017 %",
+    "distance": "95.12292560100556 cm"
+  },
+  {
+    "date": "05/05 00:00",
+    "temperature": "8.750 \u00b0C",
+    "fill_percentage": "99.86887361072564 %",
+    "distance": "95.27868326663972 cm"
+  },
+  {
+    "date": "05/05 00:15",
+    "temperature": "8.687 \u00b0C",
+    "fill_percentage": "99.74156752205425 %",
+    "distance": "95.43823022413254 cm"
+  },
+  {
+    "date": "05/05 00:30",
+    "temperature": "8.750 \u00b0C",
+    "fill_percentage": "99.81317363478841 %",
+    "distance": "95.34853335380555 cm"
+  },
+  {
+    "date": "05/05 00:45",
+    "temperature": "8.687 \u00b0C",
+    "fill_percentage": "99.61445497128888 %",
+    "distance": "95.59718154382706 cm"
+  },
+  {
+    "date": "05/05 01:00",
+    "temperature": "8.687 \u00b0C",
+    "fill_percentage": "99.75503269059146 %",
+    "distance": "95.42137175083161 cm"
+  },
+  {
+    "date": "05/05 01:15",
+    "temperature": "8.687 \u00b0C",
+    "fill_percentage": "99.82359173918412 %",
+    "distance": "95.33547381544113 cm"
+  },
+  {
+    "date": "05/05 01:30",
+    "temperature": "8.687 \u00b0C",
+    "fill_percentage": "99.99175519947562 %",
+    "distance": "95.124341506958 cm"
+  },
+  {
+    "date": "05/05 01:45",
+    "temperature": "8.687 \u00b0C",
+    "fill_percentage": "99.58552670543908 %",
+    "distance": "95.63330684375762 cm"
+  },
+  {
+    "date": "05/05 02:00",
+    "temperature": "8.687 \u00b0C",
+    "fill_percentage": "99.99430895407458 %",
+    "distance": "95.1211303691864 cm"
+  },
+  {
+    "date": "05/05 02:15",
+    "temperature": "8.625 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.05849697351456 cm"
+  },
+  {
+    "date": "05/05 02:30",
+    "temperature": "8.687 \u00b0C",
+    "fill_percentage": "99.73130622275438 %",
+    "distance": "95.45107477521897 cm"
+  },
+  {
+    "date": "05/05 02:45",
+    "temperature": "8.625 \u00b0C",
+    "fill_percentage": "99.79160594177426 %",
+    "distance": "95.37556179523469 cm"
+  },
+  {
+    "date": "05/05 03:00",
+    "temperature": "8.625 \u00b0C",
+    "fill_percentage": "99.58816225180617 %",
+    "distance": "95.63001634836198 cm"
+  },
+  {
+    "date": "05/05 03:15",
+    "temperature": "8.625 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.04164036273957 cm"
+  },
+  {
+    "date": "05/05 03:30",
+    "temperature": "8.625 \u00b0C",
+    "fill_percentage": "99.83195214449631 %",
+    "distance": "95.3249919629097 cm"
+  },
+  {
+    "date": "05/05 03:45",
+    "temperature": "8.625 \u00b0C",
+    "fill_percentage": "99.98219732243852 %",
+    "distance": "95.13635846138001 cm"
+  },
+  {
+    "date": "05/05 04:00",
+    "temperature": "8.562 \u00b0C",
+    "fill_percentage": "99.84556608116634 %",
+    "distance": "95.30792020320892 cm"
+  },
+  {
+    "date": "05/05 04:15",
+    "temperature": "8.562 \u00b0C",
+    "fill_percentage": "99.69946742526736 %",
+    "distance": "95.49091428661346 cm"
+  },
+  {
+    "date": "05/05 04:30",
+    "temperature": "8.562 \u00b0C",
+    "fill_percentage": "99.54656414461452 %",
+    "distance": "95.68193442630768 cm"
+  },
+  {
+    "date": "05/05 04:45",
+    "temperature": "8.562 \u00b0C",
+    "fill_percentage": "99.44032332965823 %",
+    "distance": "95.81436435508729 cm"
+  },
+  {
+    "date": "05/05 05:00",
+    "temperature": "8.562 \u00b0C",
+    "fill_percentage": "100.0 %",
+    "distance": "95.06152027511597 cm"
+  },
+  {
+    "date": "05/05 05:15",
+    "temperature": "8.562 \u00b0C",
+    "fill_percentage": "99.59800525712083 %",
+    "distance": "95.61772597599028 cm"
+  },
+  {
+    "date": "05/05 05:30",
+    "temperature": "8.562 \u00b0C",
+    "fill_percentage": "99.83020486686065 %",
+    "distance": "95.32718273830415 cm"
   }
 ]

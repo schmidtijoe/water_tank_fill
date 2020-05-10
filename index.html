@@ -7,23 +7,55 @@
 
     <style>
       body {background-color: #1b1f19;}
+      * {
+        box-sizing: border-box;
+        }
+      /* Create two equal columns that floats next to each other */
+      .column {
+        float: left;
+        padding: 10px;
+      }
+      .left {
+        width: 40%;
+      }
+      .right {
+        width: 60%;
+      }
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      div.a {
+        text-align: center;
+      }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 
     <title>Zisterne Füllstand</title>
   </head>
   <body>
-    <h1 style="color: #d6c67c;">F&uumlllstand </h1>
+    <br></br>
+    <div class="row">
+        <div class="column left">
+          <div class="a">
+          <h1 style="color: #d6c67c;">F&uumlllstand </h1>
 
-    <p style="color: #d6c67c;">
-      Letzter Eintrag: <span id="entry"></span><br />
-      Aktueller Füllstand: <span id="now_status"></span><br />
-    </p>
+          <p style="color: #d6c67c;">
+            Letzter Eintrag: <span id="entry"></span><br />
+            Letzte gemessene Distanz: <span id="entry_dist"></span> cm. <br />
+            Aktueller Füllstand: <span id="now_status"></span> Liter. <br />
+          </p>
+          </div>
+        </div>
+        <div class="column right">
+            <canvas id="bar" width="6" height="1"></canvas>
+        </div>
+    </div>
 
     <div class="aspect-ratio">
-      <canvas id="bar" width="100" height="10"></canvas>
 
-      <br></br>
       <br></br>
       <br></br>
 
@@ -38,6 +70,7 @@
         const dates = [];
         const fill_percentage = [];
         const temperatures = [];
+	const distances = [];
         const response = await fetch(data_url);
         console.log(response);
         const data = await response.json();
@@ -45,10 +78,12 @@
         for (i = 0; i < data.length; i++) {
           dates.push(data[i].date);
           temperatures.push(parseFloat(data[i].temperature).toFixed(2));
-          fill_percentage.push(parseFloat(data[i].fill_percentage).toFixed(2));
+          fill_percentage.push(32 * parseFloat(data[i].fill_percentage).toFixed(0));
+	  distances.push(parseFloat(data[i].distance).toFixed(0));
         }
         document.getElementById("entry").textContent = dates[dates.length -1];
-        document.getElementById("now_status").textContent = (fill_percentage[fill_percentage.length -1] * 32).toFixed(2);
+        document.getElementById("now_status").textContent = (fill_percentage[fill_percentage.length -1]).toFixed(0);
+	document.getElementById("entry_dist").textContent = distances[distances.length -1];
         return {dates, temperatures, fill_percentage};
         }
 
@@ -64,7 +99,7 @@
         gradient2.addColorStop(1, 'rgba(227, 193, 120, 0)'); // show this color at 100%
 
         const data = await getData();
-        const volume = data.fill_percentage[data.fill_percentage.length - 1] * 30;
+        const volume = data.fill_percentage[data.fill_percentage.length - 1];
 
         const plot = new Chart(ctx, {
           type: 'line',
@@ -88,26 +123,36 @@
             }]
           },
           options: {
-            legend: {
+	    legend: {
               position: 'right'
             },
             scales: {
-              xAxes: [{
+	      xAxes: [{
+		gridLines: {
+		  display: true,
+		  color: 'rgba(254, 255, 168, 0.3)',
+		  lineWidth: 1
+		  },
                 ticks: {
                     maxRotation: 90,
                     minRotation: 70
                 }
               }],
               yAxes: [{
+		gridLines: {
+		  display: true,
+		  color: 'rgba(254,255,168,0.3)',
+		  lineWidth: 1
+		  },
                 id: 'perc',
                 type: 'linear',
                 position: 'left',
                 ticks: {
                   suggestedMin: 0,
-                  suggestedMax: 100,
-                  stepSize: 5,
+                  suggestedMax: 3200,
+                  stepSize: 320,
                   callback: function(value, index, values) {
-                    return value + ' %'
+                    return (value / 32).toFixed(0) + ' %'
                   },
                   fontColor: 'rgba(172, 120, 227, 0.8)'
                 },
@@ -121,6 +166,9 @@
                 type: 'linear',
                 position: 'right',
                 ticks: {
+		  min: 4,
+		  max: 14,
+		  stepSize: 1,
                   callback: function(value, index, values) {
                     return value + ' °'
                   },
@@ -151,7 +199,7 @@
               backgroundColor: ['rgba(17, 105, 3, 0.6)'],
               borderColor: ['rgb(62, 97, 56)', 'rgb(56, 61, 56)'],
               borderWidth: 2,
-              data: [volume.toFixed(1), (3000-volume).toFixed(1)]
+              data: [volume.toFixed(0), (3200-volume).toFixed(0)]
               }]
             },
             options: {
@@ -167,7 +215,7 @@
                     label: function(tooltipItem, data) {
                         var label = 'aktuelles Volumen: ';
 
-                        label += volume.toFixed(1) ;
+                        label += volume.toFixed(0) ;
                         return label + ' Liter';
                     }
                 }

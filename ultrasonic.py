@@ -54,7 +54,7 @@ def measure_temperature():
     return temperature_value
 
 
-def write_to_json(temperature, volume):
+def write_to_json(temperature, volume, distance):
     """
     Writes the measured temperature and volume to json file with acquisition date
     :param temperature: temperature value
@@ -63,22 +63,23 @@ def write_to_json(temperature, volume):
     """
     with open('/var/www/html/data.json', 'r+') as json_file:
         data = json.load(json_file)
-        if len(data) >= 60:
+        if len(data) >= 240:
             average = 0
-            for k in range(30):
+            for k in range(120):
                 average += data[k]
-            average /= 30
+            average /= 120
             with open('/var/www/html/long.json', 'r+') as archive_file:
                 archive = json.load(archive_file)
                 archive.append({'date': datetime.datetime.now().strftime("%d/%m/%Y"),
                                 'last 30': average})
                 archive_file.seek(0)
                 json.dump(archive, archive_file)
-            data = data[30:]
+            data = data[120:]
         data.append({
-            'date': datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S"),
+            'date': datetime.datetime.now().strftime("%d/%m %H:%M"),
             'temperature': "{:.3f} °C".format(temperature),
-            'fill_percentage': '{} %'.format(volume/max_volume*100)
+            'fill_percentage': '{} %'.format(volume/max_volume*100),
+	    'distance': '{} cm'.format(distance)
         })
         json_file.seek(0)
         json.dump(data, json_file, indent=2)
@@ -128,15 +129,13 @@ time.sleep(0.1)
 print("Starting Measurement")
 temper = measure_temperature()
 print("measured temperature= {:.3f}".format(temper))
-distance = measure(temperature=temper)
-print("measured dist: {:.3f} cm".format(distance))
 distance = measure_avg(calibration=calib, n_avg=5, temperature=temper)
 print("measured distance average= {:.3f} cm".format(distance))
 fill = calculate_fill(r, L, distance)
 print("fill volume= {:.3f} l".format(fill))
 fill_percentage = fill/max_volume * 100
 print("fill percentage= {:.1f} %".format(fill_percentage))
-write_to_json(temper, fill)
+write_to_json(temper, fill, distance)
 
 GPIO.cleanup()
 
